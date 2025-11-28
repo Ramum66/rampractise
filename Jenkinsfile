@@ -4,7 +4,7 @@ pipeline {
         stage('code chekout') {
             steps{
                 script {
-                    println "hello all welcome"
+                    println "hello all welcome to evry one this is jenkins admin"
                 }
             }
         }
