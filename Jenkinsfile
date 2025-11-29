@@ -1,7 +1,9 @@
-syntax:
-
 pipeline {
     agent any
+    parameters {
+  choice choices: ['dev', 'prod', 'sit', 'uit'], description: 'reqired envs', name: 'ENV'
+}
+
     stages {
         stage('code chekout') {
             steps{
