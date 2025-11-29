@@ -1,10 +1,14 @@
+syntax:
+
 pipeline {
     agent any
     stages {
         stage('code chekout') {
             steps{
                 script {
-                    println "hello all welcome to evry one this is jenkins admin"
+                    println "hello all welcome"
+                    var1 = 230
+                    println "my var1 value is ${var1}"
                 }
             }
         }
