@@ -11,6 +11,8 @@ pipeline {
                     println "hello all welcome"
                     var1 = 230
                     println "my var1 value is ${var1}"
+                    /*accessing the paramerts*/
+                    println "the selected env is ${params.ENV}"
                 }
             }
         }
